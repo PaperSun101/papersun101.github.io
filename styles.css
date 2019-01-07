@@ -1,4 +1,6 @@
-body {width: 100%;}
+body {margin: 0;
+      padding: 0;  
+}
 
 h1 {font-family: 'Lustria', serif;
         text-align: center;
@@ -47,7 +49,5 @@ article {font-family: 'Lato', sans-serif;}
         height:20vh;
         background-color:#b7756e;               
         line-height:20vh;
-        width: 100vw;
-        margin-left: 0px;
-        margin-right: 0px;
-        }   
+        width: 100%;
+                }   
