@@ -1,3 +1,8 @@
+html, body {
+        overflow-x:hidden;
+} /*Overflow on the x axis will just be hidden, it wont make a horizontal scroll. This is to get elements that take the full 
+width of the page without making a horizontal scroll bar. Hopefully.*/
+
 h1 {font-family: 'Lustria', serif;
         text-align: center;
         color:#fff1d0;
@@ -42,10 +47,10 @@ article {font-family: 'Lato', sans-serif;}
         }
         
 .headerbackground {  
-        width: 100%;
+        width: 101%;
         height:20vh;
         background-color:#b7756e;               
         line-height:20vh;
-        margin: 0 0;
+       
         
         }
