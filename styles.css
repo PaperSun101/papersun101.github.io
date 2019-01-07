@@ -30,7 +30,8 @@ article {font-family: 'Lato', sans-serif;}
         display: block;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none;
+        text-decoration: none; /*Yo at first I was like why do I need then when I saw it; its because the default for a hyperlink
+        is to be underlined and blue, this overrides that.*/
 }
 
 .navbar li a:hover{
