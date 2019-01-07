@@ -6,6 +6,8 @@
         h4 {font-family: 'KoHo', sans-serif;}
         article {font-family: 'Lato', sans-serif;}
         
+div {width: 100%;}
+        
         .headerbackground{ background-color:#b7756e; 
                            position: sticky; 
                            top:0; 
