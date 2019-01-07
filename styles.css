@@ -1,13 +1,33 @@
-        h1 {font-family: 'Lustria', serif;
-            text-align: center;
-            color:#fff1d0}
-        h2 {font-family: 'KoHo', sans-serif;}
-        h3 {font-family: 'KoHo', sans-serif;}
-        h4 {font-family: 'KoHo', sans-serif;}
-        article {font-family: 'Lato', sans-serif;}
+h1 {font-family: 'Lustria', serif;
+        text-align: center;
+        color:#fff1d0;
+}
+h2 {font-family: 'KoHo', sans-serif;}
+h3 {font-family: 'KoHo', sans-serif;}
+h4 {font-family: 'KoHo', sans-serif;}
+
+article {font-family: 'Lato', sans-serif;}
         
+.navbarformat {
+        list-style-type: none;
+        margin:0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #a25850;
+}
+
+.navbaritems {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+}
+
+.navbaritems:hover{
+        background-color: #fff1d0;
+        color:#a25850;
         
-        .headerbackground{ background-color:#b7756e; 
+.headerbackground{ background-color:#b7756e; 
                            position: sticky; 
                            top:0; 
                            height:15vh;
