@@ -19,15 +19,18 @@ article {font-family: 'Lato', sans-serif;}
         top:0;
 }
 
+.navbar li{
+        float: left;
+}
 
 .navbar li a { /*This is a class specifically for the li elements WITHIN the home bar. ONLY FOR THAT. I did it like this, 
         along with the navbarformat because I didn't want to set a global rule by just making it a plain ul, li rule like
         I did for the h1, articles and such because this would be what the deviation from what I want the lists to look like
         and not the norm. Make sense I think? I code tired because I like to make things hard.*/
-        float: left;
         display: block;
         text-align: center;
         padding: 14px 16px;
+        text-decoration: none;
 }
 
 .navbar li a:hover{
