@@ -8,7 +8,7 @@ h4 {font-family: 'KoHo', sans-serif;}
 
 article {font-family: 'Lato', sans-serif;}
         
-ul { /*Oh snap I should comment. This is to make my home menu bar*/
+.navbar { /*Oh snap I should comment. This is to make my home menu bar*/
         list-style-type: none;
         margin:0;
         padding: 0;
@@ -20,7 +20,7 @@ ul { /*Oh snap I should comment. This is to make my home menu bar*/
 }
 
 
-li a { /*This is a class specifically for the li elements WITHIN the home bar. ONLY FOR THAT. I did it like this, 
+.navbar li a { /*This is a class specifically for the li elements WITHIN the home bar. ONLY FOR THAT. I did it like this, 
         along with the navbarformat because I didn't want to set a global rule by just making it a plain ul, li rule like
         I did for the h1, articles and such because this would be what the deviation from what I want the lists to look like
         and not the norm. Make sense I think? I code tired because I like to make things hard.*/
@@ -30,7 +30,7 @@ li a { /*This is a class specifically for the li elements WITHIN the home bar. O
         padding: 14px 16px;
 }
 
-li a:hover{
+.navbar li a:hover{
         background-color: #fff1d0;
         color:#a25850;
         
