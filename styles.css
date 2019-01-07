@@ -1,3 +1,5 @@
+body {width: 100%;}
+
 h1 {font-family: 'Lustria', serif;
         text-align: center;
         color:#fff1d0;
@@ -17,7 +19,8 @@ article {font-family: 'Lato', sans-serif;}
         position: -webkit-sticky; /* This makes it work for Safari apprently?*/
         position: sticky;
         top:0;
-}
+        }
+
 
 .navbar li{
         float: left;
@@ -38,10 +41,11 @@ article {font-family: 'Lato', sans-serif;}
 .navbar li a:hover{
         background-color: #fff1d0;
         color:#a25850;
+        }
         
-.headerbackground{ background-color:#b7756e; 
-                          height:150px;
-                          width:100%;
-                          line-height:100px; 
-                          border: 2px solid #a25850;}                        
-       
+.headerbackground {  
+        height:40vh;
+        background-color:#b7756e;               
+        line-height:40vh;
+        width: 100%;
+        }   
