@@ -55,7 +55,8 @@ article {font-family: 'Lato', sans-serif;}
       color: white;
       position: absolute;
       top: 50px;
-      right: 25%;
+      margin: 0 auto; /* to center this inside .headerbackground, which has a width of 100%. 
+                        Only works if the inner div has a specified width.*/
       
 }
        
