@@ -50,12 +50,12 @@ article {font-family: 'Lato', sans-serif;}
       height: 150px;
       border-radius: 75px;
       background-color: white;
-      box-shadow: 10px -10px 0px -5px #888888;
+      box-shadow: 10px -10px #888888;
       z-index:10;
       color: white;
       position: absolute;
       top: 50px;
-      right: 25%;
+      right: 50%;
       
 }
        
