@@ -53,8 +53,8 @@ article {font-family: 'Lato', sans-serif;}
       box-shadow: 10px -10px #888888;
       z-index:10;
       color: white;
-      position: absolute;
-      margin: 0 auto; /* to center this inside .headerbackground, which has a width of 100%. 
+      position: relative;
+      left: 50%; /* to center this inside .headerbackground, which has a width of 100%. 
                         Only works if the inner div has a specified width.*/
       
 }
